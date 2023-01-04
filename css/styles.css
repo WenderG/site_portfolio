@@ -55,12 +55,17 @@ footer {
         border-radius: 0 0 20px 20px;
     }
 
+    .cabecalho {  
+        text-align: center;
+    }
+
     .item {
         padding-right: 1em;
     }
 
     .display {
         font-size: 22px;
+        margin: 0 1rem 0 1rem;
     }
 
     footer {
@@ -72,7 +77,7 @@ footer {
     }
 
     .rodape { 
-        font-size: 22px; 
+        font-size: 18px; 
     }
 }
 

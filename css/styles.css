@@ -1,16 +1,16 @@
 :root {
     --branco: #FFFFFF;
     --cinza: #9f9e9e;
-    --cinza-clarinho : #cfcece;
+    --cinza-claro: #cfcece;
     --preto: #000000;
 
-    --fonte_texto: 'Karla', sans-serif;
+    --fonte-texto: 'Karla', sans-serif;
     --fonte-titulos: 'Abril Fatface', cursive;
 }
 
 body {
     background-color: var(--branco);
-    font-family: var(--fonte_texto);
+    font-family: var(--fonte-texto);
 }
 
 header {
@@ -22,7 +22,7 @@ header {
     text-align: center;
 }
 
-li {
+.item {
     display: inline-block;
     padding-right: 0.5em;
 }
@@ -55,12 +55,12 @@ footer {
         border-radius: 0 0 20px 20px;
     }
 
-    li {
+    .item {
         padding-right: 1em;
     }
 
     .display {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     footer {
@@ -72,40 +72,15 @@ footer {
     }
 
     .rodape { 
-        font-size: 28px; 
+        font-size: 22px; 
     }
 }
 
 @media screen and (min-width: 1440px) {
-    /* header {
-        margin: 0 10px 0 10px;
-        box-sizing: border-box;
-        border-radius: 0 0 20px 20px;
-    } */
-
     .cabecalho {  
         padding-left: 55em;
     }
 
-    li {
-        padding-right: 1em;
-    }
-
-    .display {
-        font-size: 28px;
-    }
-
-    footer {
-        box-sizing: border-box;
-        border-radius: 20px 20px 0 0;
-        margin: 0 10px 0 10px;
-        padding: 2rem 0 2rem 0;
-        
-    }
-
-    .rodape { 
-        font-size: 28px; 
-    }
 }
 
 

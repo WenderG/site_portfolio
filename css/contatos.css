@@ -1,15 +1,70 @@
-.container {
+.caixa {
+    padding-top: 3rem;
     text-align: center;
-    margin: 1rem
+}
+
+.container {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-family: var(--fonte-titulos);
+    font-size: 18px;
 }
 
 .github {
+    box-sizing: border-box;
+    border: 1px solid var(--preto);
+    border-radius: 16px;
     margin: 0.5rem;
     width: 300px;
 }
 
 .linkedin {
+    box-sizing: border-box;
+    border: 1px solid var(--preto);
+    border-radius: 16px;
     margin: 0.5rem;
     width: 300px;
 }
 
+.outros {
+    padding: 1em 0 1em 0;
+}
+
+@media screen and (min-width: 768px) {
+    .caixa {
+        background-color: var(--cinza-claro);
+        box-sizing: border-box;
+        border-radius: 30px;
+        margin: 3rem;
+        padding-top: 1rem;
+    }
+    
+    .container {
+        font-size: 22px;
+        margin: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .github {
+        margin: 0.5rem;
+        width: 600px;
+    }
+    
+    .linkedin {
+        margin: 0.5rem;
+        width: 600px;
+    }
+    
+    .outros {
+        padding: 2rem 0 2rem 0;
+    }
+
+}

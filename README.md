@@ -2,4 +2,5 @@
 
 Site desenvolvido com o propósito de expor meus projetos
 
->Status do projeto: Em desenvolvimento.
+>Status do projeto: Finalizado.
+

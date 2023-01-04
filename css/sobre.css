@@ -1,0 +1,28 @@
+h1 {
+    font-size: 24px;
+    margin: 10px;
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--fonte-titulos);
+    font-size: 18px;
+    padding-bottom: 1em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.secao {
+    display: grid;
+        grid-template-areas: 50% 50%;
+}
+
+.foto {
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+    width: 145px;
+}

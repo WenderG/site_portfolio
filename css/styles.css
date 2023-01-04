@@ -1,0 +1,111 @@
+:root {
+    --branco: #FFFFFF;
+    --cinza: #9f9e9e;
+    --cinza-clarinho : #cfcece;
+    --preto: #000000;
+
+    --fonte_texto: 'Karla', sans-serif;
+    --fonte-titulos: 'Abril Fatface', cursive;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte_texto);
+}
+
+header {
+    background-color: var(--preto);
+    padding: 2rem 0 1rem 0;
+}
+
+.cabecalho {  
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.display {
+    color: var(--branco);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.display:hover {
+    color: var(--cinza);
+}
+
+footer {
+    background-color: var(--preto);
+    padding: 1.5rem 0 1.5rem 0;
+    position: relative;
+}
+
+.rodape {
+    color: var(--branco);
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        margin: 0 10px 0 10px;
+        box-sizing: border-box;
+        border-radius: 0 0 20px 20px;
+    }
+
+    li {
+        padding-right: 1em;
+    }
+
+    .display {
+        font-size: 28px;
+    }
+
+    footer {
+        box-sizing: border-box;
+        border-radius: 20px 20px 0 0;
+        margin: 0 10px 0 10px;
+        padding: 2rem 0 2rem 0;
+        
+    }
+
+    .rodape { 
+        font-size: 28px; 
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* header {
+        margin: 0 10px 0 10px;
+        box-sizing: border-box;
+        border-radius: 0 0 20px 20px;
+    } */
+
+    .cabecalho {  
+        padding-left: 55em;
+    }
+
+    li {
+        padding-right: 1em;
+    }
+
+    .display {
+        font-size: 28px;
+    }
+
+    footer {
+        box-sizing: border-box;
+        border-radius: 20px 20px 0 0;
+        margin: 0 10px 0 10px;
+        padding: 2rem 0 2rem 0;
+        
+    }
+
+    .rodape { 
+        font-size: 28px; 
+    }
+}
+
+

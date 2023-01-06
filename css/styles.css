@@ -30,6 +30,7 @@ header {
 .display {
     color: var(--branco);
     font-size: 18px;
+    font-style: italic;
     text-decoration: none;
 }
 
@@ -50,9 +51,9 @@ footer {
 
 @media screen and (min-width: 768px) {
     header {
-        margin: 0 10px 0 10px;
         box-sizing: border-box;
         border-radius: 0 0 20px 20px;
+        margin: 0 2.6% 0 2.6%;
     }
 
     .cabecalho {  
@@ -71,17 +72,21 @@ footer {
     footer {
         box-sizing: border-box;
         border-radius: 20px 20px 0 0;
-        margin: 0 10px 0 10px;
+        margin: 0 2.6% 0 2.6%;
         padding: 2rem 0 2rem 0;
         
     }
 
     .rodape { 
-        font-size: 18px; 
+        font-size: 22px; 
     }
 }
 
 @media screen and (min-width: 1440px) {
+    header {
+        margin: 0 6% 0 6%;
+    }
+    
     .cabecalho {  
         text-align: right;
     }

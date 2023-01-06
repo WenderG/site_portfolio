@@ -14,12 +14,20 @@ h2 {
     font-size: 18px;
 }
 
+.twitter {
+    box-sizing: border-box;
+    border: 1px solid var(--preto);
+    border-radius: 16px;
+    margin: 0.5rem;
+    width: 83.34%;
+}
+
 .github {
     box-sizing: border-box;
     border: 1px solid var(--preto);
     border-radius: 16px;
     margin: 0.5rem;
-    width: 300px;
+    width: 83.34%;
 }
 
 .linkedin {
@@ -27,11 +35,27 @@ h2 {
     border: 1px solid var(--preto);
     border-radius: 16px;
     margin: 0.5rem;
-    width: 300px;
+    width: 83.34%;
+}
+
+.texto {
+    font-size: 15px;
 }
 
 .outros {
-    padding: 1em 0 1em 0;
+    padding-bottom: 1rem;
+}
+
+.email {
+    font-size: 15px;
+    font-style: italic;
+    padding: 1rem 0 1rem 0;
+}
+
+.cel {
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -39,7 +63,7 @@ h2 {
         background-color: var(--cinza-claro);
         box-sizing: border-box;
         border-radius: 30px;
-        margin: 3rem;
+        margin: 3rem 12.5% 3rem 12.5%;
         padding-top: 1rem;
     }
     
@@ -52,19 +76,45 @@ h2 {
     h2 {
         font-size: 24px;
     }
+
+    .twitter {
+        margin: 0.5rem;
+        width: 66%;
+        max-width: 420px;
+    }
     
     .github {
         margin: 0.5rem;
-        width: 600px;
+        width: 66%;
+        max-width: 420px;
     }
     
     .linkedin {
         margin: 0.5rem;
-        width: 600px;
+        width: 66%;
+        max-width: 420px;
     }
     
     .outros {
         padding: 2rem 0 2rem 0;
     }
 
+    .texto {
+        font-size: 16px;
+    }
+     
+    .email {
+        font-size: 16px;
+    }
+    
+    .cel {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .caixa {
+        margin: 3rem 22% 3rem 22%;
+    }
 }

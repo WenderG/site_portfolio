@@ -33,6 +33,14 @@ h3 {
     text-indent: 15px;
 }
 
+.texto {
+    line-height: 16px;
+}
+
+.cadastroFuncionario {
+    width: 300px;
+}
+
 .adopet {
     width: 300px;
 }
@@ -63,6 +71,10 @@ h3 {
         margin: 0 1em 0 1em;
     }
 
+    .margem-container {
+        margin: 0 10% 0 10%;
+    }
+
     .container {
         background-color: var(--cinza-claro);
         box-sizing: border-box;
@@ -75,11 +87,12 @@ h3 {
         box-sizing: border-box;
         border-radius: 20px;
         font-size: 22px;
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 1rem 6.5% 1rem 6.5%;
     }
     
     .texto {
         margin: 0 1em 0 1em;
+        line-height: 32px;
     }
 
     .sobre {
@@ -87,16 +100,24 @@ h3 {
         text-indent: 20px;
     }
 
+    .cadastroFuncionario {
+        width: 85.57%;
+        max-width: 700px;
+    }
+
     .adopet {
-        width: 680px;
+        width: 85.57%;
+        max-width: 700px;
     }
     
     .jogo_da_roleta1 {
-        width: 500px;
+        width: 75.15%;
+        max-width: 600px;
     }
     
     .jogo_da_roleta2 {
-        width: 500px;
+        width: 75.15%;
+        max-width: 600px;
     }
 }
 

@@ -83,7 +83,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
     .cabecalho {  
-        padding-left: 55em;
+        text-align: right;
     }
 
 }

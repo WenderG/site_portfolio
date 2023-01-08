@@ -13,40 +13,6 @@ body {
     font-family: var(--fonte-texto);
 }
 
-header {
-    background-color: var(--preto);
-    padding: 2rem 0 1rem 0;
-}
-
-.cabecalho {  
-    text-align: center;
-}
-
-.lista-menu {
-    display:none;
-}
-
-.container__botao_menu:checked~.lista-menu {
-    display:block;
-}
-
-
-.item {
-    display: inline-block;
-    padding-right: 0.5em;
-}
-
-.display {
-    color: var(--branco);
-    font-size: 18px;
-    font-style: italic;
-    text-decoration: none;
-}
-
-.display:hover {
-    color: var(--cinza);
-}
-
 footer {
     background-color: var(--preto);
     padding: 1.5rem 0 1.5rem 0;
@@ -59,25 +25,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    header {
-        box-sizing: border-box;
-        border-radius: 0 0 20px 20px;
-        margin: 0 2.6% 0 2.6%;
-    }
-
-    .cabecalho {  
-        text-align: center;
-    }
-
-    .item {
-        padding-right: 1em;
-    }
-
-    .display {
-        font-size: 22px;
-        margin: 0 1rem 0 1rem;
-    }
-
     footer {
         box-sizing: border-box;
         border-radius: 20px 20px 0 0;
@@ -91,15 +38,5 @@ footer {
     }
 }
 
-@media screen and (min-width: 1440px) {
-    header {
-        margin: 0 6% 0 6%;
-    }
-    
-    .cabecalho {  
-        text-align: right;
-    }
-
-}
 
 

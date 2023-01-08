@@ -37,22 +37,6 @@ h3 {
     line-height: 16px;
 }
 
-.liquiTurbo {
-    width: 300px;
-}
-
-.loja_bones {
-    width: 300px;
-}
-
-.cadastroFuncionario {
-    width: 300px;
-}
-
-.adopet {
-    width: 300px;
-}
-
 .jogo_da_roleta1 {
     width: 300px;
 }
@@ -106,26 +90,6 @@ h3 {
     .sobre {
         padding: 1rem;
         text-indent: 20px;
-    }
-
-    .liquiTurbo {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .loja_bones {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .cadastroFuncionario {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .adopet {
-        width: 85.57%;
-        max-width: 700px;
     }
     
     .jogo_da_roleta1 {

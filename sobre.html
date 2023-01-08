@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,800;1,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <title>@WenderG-Portfolio</title>
@@ -16,7 +17,34 @@
         <nav class="cabecalho">
             <ul>
                 <li class="item"><a href="index.html" class="display">Home</a></li>
-                <li class="item"><a href="#" class="display">Projetos</a></li>
+
+                <li class="item">
+                    <div class="projetos-container display">
+                        <input type="checkbox" id="menu" class="container__botao_menu">
+                        <label for="menu" class="menu-hamburguer">
+                            Projetos
+                        </label>
+        
+                        <ul class="lista-menu">
+                            <li class="lista-menu__item">
+                                <a href="./projetosPython.html" class="lista-menu__link">Python</a>
+                            </li>
+                            <li class="lista-menu__item">
+                                <a href="./projetosC.html" class="lista-menu__link">C</a>
+                            </li>
+                            <li class="lista-menu__item">
+                                <a href="./projetosJava.html" class="lista-menu__link">Java</a>
+                            </li>
+                            <li class="lista-menu__item">
+                                <a href="./projetosHtml.html" class="lista-menu__link">Html & CSS</a>
+                            </li>
+                            <li class="lista-menu__item">
+                                <a href="./projetosJavaScript.html" class="lista-menu__link">JavaScript</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                
                 <li class="item"><a href="sobre.html" class="display">Sobre mim</a></li>
                 <li class="item"><a href="contatos.html" class="display">Contatos</a></li>
             </ul>

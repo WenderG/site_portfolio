@@ -41,26 +41,6 @@ h3 {
     width: 300px;
 }
 
-.loja_bones {
-    width: 300px;
-}
-
-.cadastroFuncionario {
-    width: 300px;
-}
-
-.adopet {
-    width: 300px;
-}
-
-.jogo_da_roleta1 {
-    width: 300px;
-}
-
-.jogo_da_roleta2 {
-    width: 300px;
-}
-
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 28px;
@@ -113,30 +93,6 @@ h3 {
         max-width: 700px;
     }
 
-    .loja_bones {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .cadastroFuncionario {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .adopet {
-        width: 85.57%;
-        max-width: 700px;
-    }
-    
-    .jogo_da_roleta1 {
-        width: 75.15%;
-        max-width: 600px;
-    }
-    
-    .jogo_da_roleta2 {
-        width: 75.15%;
-        max-width: 600px;
-    }
 }
 
 @media screen and (min-width: 1440px) {

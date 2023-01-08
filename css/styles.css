@@ -22,6 +22,15 @@ header {
     text-align: center;
 }
 
+.lista-menu {
+    display:none;
+}
+
+.container__botao_menu:checked~.lista-menu {
+    display:block;
+}
+
+
 .item {
     display: inline-block;
     padding-right: 0.5em;

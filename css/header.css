@@ -96,4 +96,8 @@ header {
         text-align: right;
     }
 
+    .lista-menu__item {
+        text-align: center;
+    }
+
 }

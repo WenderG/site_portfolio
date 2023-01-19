@@ -37,27 +37,7 @@ h3 {
     line-height: 16px;
 }
 
-.liquiTurbo {
-    width: 300px;
-}
-
-.loja_bones {
-    width: 300px;
-}
-
-.cadastroFuncionario {
-    width: 300px;
-}
-
-.adopet {
-    width: 300px;
-}
-
-.jogo_da_roleta1 {
-    width: 300px;
-}
-
-.jogo_da_roleta2 {
+.imagem {
     width: 300px;
 }
 
@@ -108,35 +88,11 @@ h3 {
         text-indent: 20px;
     }
 
-    .liquiTurbo {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .loja_bones {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .cadastroFuncionario {
-        width: 85.57%;
-        max-width: 700px;
-    }
-
-    .adopet {
+    .imagem {
         width: 85.57%;
         max-width: 700px;
     }
     
-    .jogo_da_roleta1 {
-        width: 75.15%;
-        max-width: 600px;
-    }
-    
-    .jogo_da_roleta2 {
-        width: 75.15%;
-        max-width: 600px;
-    }
 }
 
 @media screen and (min-width: 1440px) {

@@ -1,6 +1,6 @@
 :root {
     --amarelo: #ffff00;
-    --azul: #003cff;
+    --azul: #000638;
     --branco: #FFFFFF;
     --cinza: #9f9e9e;
     --cinza-claro: #cfcece;
@@ -8,6 +8,7 @@
 
     --fonte-texto: 'Karla', sans-serif;
     --fonte-titulos: 'Abril Fatface', cursive;
+    --fonte-logo: 'Lobster', cursive;
 }
 
 body {

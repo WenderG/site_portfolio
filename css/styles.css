@@ -1,4 +1,6 @@
 :root {
+    --amarelo: #ffff00;
+    --azul: #000638;
     --branco: #FFFFFF;
     --cinza: #9f9e9e;
     --cinza-claro: #cfcece;
@@ -6,6 +8,7 @@
 
     --fonte-texto: 'Karla', sans-serif;
     --fonte-titulos: 'Abril Fatface', cursive;
+    --fonte-logo: 'Lobster', cursive;
 }
 
 body {
@@ -14,7 +17,10 @@ body {
 }
 
 footer {
-    background-color: var(--preto);
+    background-color: var(--azul);
+    border-top: 4px solid var(--amarelo);
+    border-left: 4px solid var(--amarelo);
+    border-right: 4px solid var(--amarelo);
     padding: 1.5rem 0 1.5rem 0;
     position: relative;
 }

@@ -1,5 +1,8 @@
 header {
-    background-color: var(--preto);
+    background-color: var(--azul);
+    border-bottom: 4px solid var(--amarelo);
+    border-left: 4px solid var(--amarelo);
+    border-right: 4px solid var(--amarelo);
     padding: 2rem 0 1rem 0;
 }
 
@@ -40,7 +43,10 @@ header {
 }
 
 .lista-menu {
-    background-color: var(--preto);
+    background-color: var(--azul);
+    border-bottom: 4px solid var(--amarelo);
+    border-left: 4px solid var(--amarelo);
+    border-right: 4px solid var(--amarelo);
     border-radius:  0 0 16px 16px;
     display: none;
     margin-top: 1rem;
